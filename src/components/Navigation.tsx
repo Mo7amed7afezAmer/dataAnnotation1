@@ -9,10 +9,10 @@ const Navigation = () => {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Services', href: '/services' },
-    { name: 'About', href: '/about' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Home', href: '/dataAnnotation1' },
+    { name: 'Services', href: '/dataAnnotation1/services' },
+    { name: 'About', href: '/dataAnnotation1/about' },
+    { name: 'Contact', href: '/dataAnnotation1/contact' },
   ];
 
   const isActiveLink = (href: string) => location.pathname === href;
